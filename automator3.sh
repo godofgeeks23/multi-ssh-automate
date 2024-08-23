@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Extract aliases and corresponding SSH commands directly from the .env file
-mapfile -t servers < <(grep -oP '^[a-zA-Z0-9_-]+=".*"' env)
+mapfile -t servers < <(grep -oP '^[a-zA-Z0-9_-]+=".*"' .env)
 
 for entry in "${servers[@]}"; do
     # Extract alias name and command
