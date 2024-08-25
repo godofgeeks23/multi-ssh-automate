@@ -8,7 +8,21 @@ I know there are other tools like Ansible, but this is a quick and dirty way to 
 ## Usage
 
 1. Clone the repository
+
+```bash
+git clone https://github.com/godofgeeks23/multi-ssh-automate.git
+```
+
 2. Add your servers to the `sample.env` file
 3. Rename `sample.env` to `.env`
+
+```bash
+mv sample.env .env
+```
+
 4. Edit `automator.sh` and add your commands to run on the servers
 5. Run the script
+
+```bash
+bash automator.sh
+```
