@@ -11,7 +11,7 @@ for entry in "${servers[@]}"; do
     echo "SSHing into $alias_name..."
     echo "----------------------------------------"
 
-    # Run the SSH command with the corresponding server
+    # Run the SSH command with the corresponding server - enter the commands to be executed on the server
     $server_command <<EOF
     echo "SSHed into $alias_name"
     sudo docker ps
