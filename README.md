@@ -3,7 +3,7 @@
 A quick bash script to automate the process of connecting to multiple servers via SSH, and executing commands on them.
 
 Sometimes you need to connect to multiple servers and execute the same command on all of them. This script will help you do that.
-I know there are other tools like Ansible, but this is a quick and dirty way to do it.
+I know there are other more powerful tools like Ansible, but this is a quick and dirty way to do it.
 
 ## Usage
 
