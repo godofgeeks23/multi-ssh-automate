@@ -26,3 +26,5 @@ mv sample.env .env
 ```bash
 bash automator.sh
 ```
+
+Done!
