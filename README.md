@@ -13,7 +13,7 @@ I know there are other more powerful tools like Ansible, but this is a quick and
 git clone https://github.com/godofgeeks23/multi-ssh-automate.git
 ```
 
-2. Add your servers to the `sample.env` file
+2. Add your servers and SSH credentials to the `sample.env` file
 3. Rename `sample.env` to `.env`
 
 ```bash
