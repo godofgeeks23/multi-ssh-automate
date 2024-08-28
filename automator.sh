@@ -19,6 +19,6 @@ for entry in "${servers[@]}"; do
     logout
 EOF
 
-    echo "Finished running commands on $alias_name"
+    echo "Finished running commands on server: $alias_name"
     echo "----------------------------------------"
 done
