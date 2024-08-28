@@ -8,7 +8,7 @@ for entry in "${servers[@]}"; do
     alias_name=$(echo "$entry" | cut -d '=' -f 1)
     server_command=$(echo "$entry" | cut -d '"' -f 2)
 
-    echo "SSHing into $alias_name..."
+    echo "SSHing into server: $alias_name..."
     echo "----------------------------------------"
 
     # Run the SSH command with the corresponding server - enter the commands to be executed on the server
