@@ -8,6 +8,7 @@ for entry in "${servers[@]}"; do
     alias_name=$(echo "$entry" | cut -d '=' -f 1)
     server_command=$(echo "$entry" | cut -d '"' -f 2)
 
+    echo "----------------------------------------"
     echo "SSHing into server: $alias_name..."
     echo "----------------------------------------"
 
@@ -19,6 +20,7 @@ for entry in "${servers[@]}"; do
     logout
 EOF
 
+    echo "----------------------------------------"
     echo "Finished running commands on server: $alias_name"
     echo "----------------------------------------"
 done
