@@ -12,7 +12,7 @@ for entry in "${servers[@]}"; do
     echo "SSHing into server: $alias_name..."
     echo "----------------------------------------"
 
-    # Run the SSH command with the corresponding server - enter the commands to be executed on the server
+    # Run the SSH commands - enter the commands to be executed on the server
     $server_command <<EOF
     echo "SSHed successfully into server: $alias_name"
     # Run the commands on the server
