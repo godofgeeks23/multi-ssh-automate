@@ -22,7 +22,7 @@ for i in "${!servers[@]}"; do
     server="${servers[$i]}"
     alias="${aliases[$i]}"
 
-    echo "SSHing into $alias..."
+    echo "SSHing into server: $alias..."
     echo "----------------------------------------"
 
     # Run the SSH command with the corresponding server
