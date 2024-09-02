@@ -10,7 +10,7 @@ aliases=(
     "server4"
 )
 
-# Array of SSH commands
+# Array of SSH commands for each server
 servers=(
     "ssh -i ~/key.pem user@xx.xx.xx.xx"
     "ssh -i ~/key.pem user@xx.xx.xx.xx"
