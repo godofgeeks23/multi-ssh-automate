@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# version 2 - SSH into multiple serverss
+
 # Define the alias array corresponding to each server
 aliases=(
     "server1"
