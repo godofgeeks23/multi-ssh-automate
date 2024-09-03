@@ -29,4 +29,4 @@ bash automator.sh
 
 Done!
 
-## License
+Made with ❤️
