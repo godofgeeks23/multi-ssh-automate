@@ -28,3 +28,5 @@ bash automator.sh
 ```
 
 Done!
+
+## License
