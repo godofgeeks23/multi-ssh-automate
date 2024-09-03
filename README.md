@@ -29,4 +29,4 @@ bash automator.sh
 
 Done!
 
-Made with ❤️
+Made with ❤️ by godofgeeks23
