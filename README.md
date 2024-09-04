@@ -7,7 +7,7 @@ I know there are other more powerful tools like Ansible, but this is a quick and
 
 ## Usage instructions
 
-1. Clone this repository
+1. Clone the repository
 
 ```bash
 git clone https://github.com/godofgeeks23/multi-ssh-automate.git
