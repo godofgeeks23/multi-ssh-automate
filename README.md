@@ -14,7 +14,7 @@ git clone https://github.com/godofgeeks23/multi-ssh-automate.git
 ```
 
 2. Add your servers and SSH credentials to the `sample.env` file
-3. Rename `sample.env` to `.env`
+3. Rename `sample.env` file to `.env`
 
 ```bash
 mv sample.env .env
