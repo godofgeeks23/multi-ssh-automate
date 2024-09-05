@@ -1,4 +1,4 @@
-# Multiserver SSH Automation
+# Multi-server SSH Automation
 
 A quick bash script to automate the process of connecting to multiple servers via SSH, and executing commands on them.
 
