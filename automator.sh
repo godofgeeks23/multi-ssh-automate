@@ -4,6 +4,7 @@
 mapfile -t servers < <(grep -oP '^[a-zA-Z0-9_-]+=".*"' .env)
 # the above line works as follows:
 # - grep -oP '^[a-zA-Z0-9_-]+=".*"' .env: extracts all lines from the .env file that have the format ALIAS="COMMAND"
+# - mapfile -t servers: stores the extracted lines in the servers array
 
 for entry in "${servers[@]}"; do
     # Extract alias name and command
