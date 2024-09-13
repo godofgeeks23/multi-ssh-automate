@@ -2,6 +2,7 @@
 
 # Extract aliases and corresponding SSH commands from the .env file
 mapfile -t servers < <(grep -oP '^[a-zA-Z0-9_-]+=".*"' .env)
+# the above line works as follows:
 
 for entry in "${servers[@]}"; do
     # Extract alias name and command
