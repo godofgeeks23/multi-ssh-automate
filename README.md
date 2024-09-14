@@ -17,14 +17,18 @@ git clone https://github.com/godofgeeks23/multi-ssh-automate.git
 3. Rename `sample.env` file to `.env`
 
 ```bash
+
 mv sample.env .env
+
 ```
 
 4. Edit `automator.sh` and add your commands to run on the remote servers
 5. Run the script
 
 ```bash
+
 bash automator.sh
+
 ```
 
 Done!
