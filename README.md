@@ -31,6 +31,6 @@ bash automator.sh
 
 ```
 
-Done!
+And its done!
 
 Made with ❤️ by godofgeeks23
