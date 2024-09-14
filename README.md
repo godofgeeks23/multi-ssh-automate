@@ -33,4 +33,4 @@ bash automator.sh
 
 And its done!
 
-Made with ❤️ by godofgeeks23
+(Made with ❤️ by godofgeeks23)
