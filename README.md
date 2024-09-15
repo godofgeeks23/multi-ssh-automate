@@ -1,5 +1,7 @@
 # Multi-server SSH Automation
 
+## About
+
 A quick bash script to automate the process of connecting to multiple servers via SSH, and executing commands on them.
 
 Sometimes you need to manually connect to multiple servers and execute the same commands on all of them. This script will help you do that while saving manual hassle.
