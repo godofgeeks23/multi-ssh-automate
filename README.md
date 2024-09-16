@@ -37,3 +37,5 @@ bash automator.sh
 And its done!
 
 (Made with ❤️ by godofgeeks23)
+
+PS. primitives/ conatins the basic script to connect to a single server via SSH
