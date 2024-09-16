@@ -38,4 +38,4 @@ And its done!
 
 (Made with ❤️ by godofgeeks23)
 
-PS. primitives/ conatins the basic script to connect to a single server via SSH
+PS. primitives/ conatins the basic scripts to connect to a single server via SSH
