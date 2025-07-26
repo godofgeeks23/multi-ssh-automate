@@ -19,7 +19,9 @@ for entry in "${servers[@]}"; do
     $server_command <<EOF
     echo "SSHed successfully into server: $alias_name"
     # Run the commands on the server
-    sudo docker ps
+    cd /var/lib/jenkins/workspace/backend-build-deploy/
+    sudo docker compose down
+    sudo docker compose up -d
     logout
 EOF
 
