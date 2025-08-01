@@ -15,14 +15,15 @@ for entry in "${servers[@]}"; do
     echo "SSHing into server: $alias_name..."
     echo "----------------------------------------"
 
-    # Run the after SSH commands - enter the commands to be executed on the server
     $server_command <<EOF
     echo "SSHed successfully into server: $alias_name"
     # Run the commands on the server
-    cd /var/lib/jenkins/workspace/backend-build-deploy/
-    sudo docker compose down
-    sudo docker compose up -d
-    logout
+
+    sudo apt-get update
+    sudo apt-get upgrade -y
+
+
+    exit
 EOF
 
     echo "----------------------------------------"
