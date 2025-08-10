@@ -6,9 +6,11 @@ A quick bash script to automate the process of connecting to multiple servers vi
 
 Use case - Sometimes you need to manually connect to multiple servers and execute the same commands on all of them. This script will help you do that while saving manual hassle.
 
+### But why bash? - because it is available everywhere.
+
 Note - I know there are other more powerful automation tools like Ansible for this purpose, but this is a quick and dirty way to do it.
 
-## Usage Instructions
+## Usage
 
 1. Clone this github repo
 
